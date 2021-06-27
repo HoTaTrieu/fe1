@@ -1,0 +1,162 @@
+
+#menu_top{
+    background: yellow;
+    height: 40px;
+}
+#banner{
+   
+    height: auto;
+    width: 1000px;
+}
+#main #left{
+    width: 930px;
+    background: #f6f6f6;
+    float: left;
+    min-height: 400px;
+    
+}
+#main #left p{
+    margin: 0px;
+    padding-bottom: 24px;
+    font-size: 13px;
+    
+}
+
+#main #right{
+    width: 350px;
+    background: #f6f6f6;
+    float: left;
+    min-height: 440px;
+    
+}
+#footer{
+    background: #000;
+    width:1000px;
+    text-align: center;
+    height: 60px;
+    color: #fff;
+    clear: left;
+    line-height: 60px;
+}
+#menu_top ul{
+    margin: 0px;
+    padding: 0px;
+}
+#menu_top ul li{
+    list-style: none;
+    float: left;
+}
+#menu_top ul li a{
+    text-decoration: none;
+    display: block;
+    height: 40px;
+    line-height: 40px;
+    color: black;
+    padding: 0px 34.3px 0px 35px;
+    border-right: 0.5px solid #3c3c3c;
+
+}
+#menu_top ul li a.active{
+    background: #3c3c3c;
+    color: #fff;
+}
+#banner img{
+    width: 1000px;
+}
+.hinh-1{
+    padding: 300px;
+    text-align: right;
+}
+.a-1{
+    padding-right: 100px;
+    background:  #3c3c3c;
+}
+.container {
+    padding-left: 15px;
+    padding-right: 15px;
+    margin: 0 auto;   
+}
+.aa-1{
+   background: yellow;
+   text-align: center;
+}
+.aa-2{
+    background: yellow;
+    text-align: center;
+}
+.aa-3{
+    background: yellow;
+    text-align: center;
+}
+
+.toggle-box {
+    display: none;
+  }
+  
+  .toggle-box + label {
+    cursor: pointer;
+    display: block;
+    font-weight: bold;
+    line-height: 21px;
+    margin-bottom: 5px;
+  }
+  
+  .toggle-box + label + div {
+    display: none;
+    margin-bottom: 10px;
+  }
+  
+  .toggle-box:checked + label + div {
+    display: block;
+  }
+  
+  .toggle-box + label:before {
+    background-color: #4F5150;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+    border-radius: 10px;
+    color: #FFFFFF;
+    content: "+";
+    display: block;
+    float: left;
+    font-weight: bold;
+    height: 20px;
+    line-height: 20px;
+    margin-right: 5px;
+    text-align: center;
+    width: 20px;
+   
+  }
+  
+  .toggle-box:checked + label:before {
+    content: "\2212";
+  }
+
+  .col-wrap {
+    display: table;
+    width: 100%;
+    text-align: center;
+    
+  }
+  
+  .col {
+    display: table-cell;
+    padding: 1rem
+  }
+  
+  .col:nth-child(even) {
+    background-color: #fff;
+  }
+  
+  .col:nth-child(odd) {
+    background-color: #fff;
+  }
+  .AB{
+      background: yellow;
+      color: #000;
+  }
+  #anhcuoi{
+    display: block;
+ margin-left: auto;
+ margin-right: auto;
+  }
